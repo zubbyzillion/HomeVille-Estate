@@ -6,10 +6,13 @@ const Header = () => {
             <header>
                 <div className="container">
                     <div className="logo">
-                        <img src="./images/logo.png" alt=""></img>
+                        <img src="./images/logo.png" alt="" />
                     </div>
+                    <div className="nav"></div>
                 </div>
             </header>
         </>
     )
 }
+
+export default Header
