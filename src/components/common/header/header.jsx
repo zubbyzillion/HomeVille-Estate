@@ -1,19 +1,22 @@
-import React from "react"
-import { link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
+import { nav } from "../../data/Data";
 
 const Header = () => {
     return (
         <>
             <header>
-                <div className="container">
+                <div className="container flex">
                     <div className="logo">
                         <img src="./images/logo.png" alt="" />
                     </div>
                     <div className="nav">
-                        <ul>
-                            {navigator.maxTouchPoints((list, index) => (<li key={index}>
-                                <link to={list.path}>{list.text}</link>
-                            </li>))}
+                        <ul className="flex">
+                            {nav.map((list, index) => (
+                            <li key={index}>
+                                <Link to={list.path}>{list.text}</Link>
+                            </li>
+                            ))}
                         </ul>
                     </div>
                 </div>
