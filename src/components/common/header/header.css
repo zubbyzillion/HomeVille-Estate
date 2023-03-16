@@ -80,3 +80,15 @@ header .toggle {
         color: #fff;
     }
 }
+
+@media screen and (max-width: 1067) {
+    header img {
+        width: 140px;
+    }
+
+    header a {
+        margin-left: 12px;
+        transition: 0.5s;
+        font-weight: 500;
+    }
+}
