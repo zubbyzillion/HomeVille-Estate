@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "../../common/Heading";
 import "./hero.css";
 
 const Hero = () => {
@@ -6,6 +7,7 @@ const Hero = () => {
     <>
         <section className="hero">
             <div className="container">
+                <Heading title="Search your Next Home" subtitle="Find new & featured property located in your local city." />
                 <form action=""className="flex">
                     <div className="box">
                         <span>City/Street</span>
