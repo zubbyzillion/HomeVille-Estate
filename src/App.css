@@ -111,4 +111,10 @@ h4 {
 img {
   width: 100%;
   height: 100%;
+  cursor: pointer;
+}
+
+.btn2 {
+  border-radius: 50px;
+  font-size: 20px;
 }
