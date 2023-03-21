@@ -14,3 +14,12 @@
     font-size: 20px;
     color: #bec7d8;
 }
+
+.recent p {
+    color: #72809d;
+}
+
+.recent .button {
+    border-top: 1px solid #efe8f3;
+    padding: 10px 30px;
+}
