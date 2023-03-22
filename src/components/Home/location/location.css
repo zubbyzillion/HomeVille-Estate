@@ -1,5 +1,6 @@
 .location .box {
     position: relative;
+    display: flex;
     border-radius: 5px;
 }
 
@@ -15,7 +16,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 250px;
+    height: 210px;
     width: 100%;
     color: #fff;
     z-index: 222;
@@ -24,12 +25,22 @@
 .location .overlay::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 340px;
-    height: 210px;
-    background: rgba(15, 28, 47, 30%);
+    top: 15;
+    left: -10;
+    /* bottom: -10; */
+    width: 320px;
+    height: 200px;
+    background: rgb(15 28 47 / 30%);
     z-index: -1;
-    margin: 20px;
+    margin: 0 auto;
     border-radius: 5px;
+}
+
+.location h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.location label {
+    color: #fff;
+    margin-right: 20px;
 }
