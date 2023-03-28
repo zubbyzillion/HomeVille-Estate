@@ -2,7 +2,9 @@ import React from 'react';
 
 const PriceCard = () => {
   return (
-    <>PriceCard</>
+    <>
+        <div className="content flex mtop"></div>
+    </>
   )
 }
 
