@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from "../../common/Heading";
 import PriceCard from "./PriceCard";
+import "./price.css";
 
 const Price = () => {
   return (
