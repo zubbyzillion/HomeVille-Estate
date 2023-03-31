@@ -2,7 +2,7 @@ import React from 'react';
 import { footer } from "../../data/Data";
 import "./footer.css";
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
         <section className="footerContact">
@@ -31,10 +31,24 @@ const footer = () => {
                         </div>
                     </div>
                 </div>
+
+                {footer.map((val) => (
+                    <div className="box">
+                        <h3>{val.title}</h3>
+                        <ul>
+                            {val.text.map((items) => (
+                                <li> {items.list} </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
             </div>
         </footer>
+        <div className="copyright">
+            <span>&copy; 2023 RentUP. A Project done from off a YT channel to Enhance my understanding of React-Router.</span>
+        </div>
     </>
   )
 }
 
-export default footer;
+export default Footer;
