@@ -7,7 +7,9 @@ import "./about.css";
 const About = () => {
   return (
     <>
-    
+        <section className="about">
+            <Back />
+        </section>
     </>
   )
 }
