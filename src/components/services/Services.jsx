@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../common/Back";
 import "../home/featured/Featured.css";
-import FeaturedCard from "../home//featured/FeaturedCard";
+import FeaturedCard from "../home/featured/FeaturedCard";
 
 const Services = () => {
   return (
