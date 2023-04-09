@@ -28,4 +28,4 @@ const Pages = () => {
     )
 }
 
-export default Pages
+export default Pages;
